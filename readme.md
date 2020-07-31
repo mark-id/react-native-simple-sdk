@@ -33,6 +33,10 @@ npm install https://github.com/expo/react-native/archive/sdk-38.0.0.tar.gz
 npm install react-native-radio-buttons-group@^1.0.7
 ```
 
+```bash
+npm install expo-permissions@^9.1.0
+```
+
 ## Usage
 
 ```javascript
