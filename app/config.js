@@ -4,16 +4,22 @@
 const DefaultMarkIdDomain = 'https://markid.eu';
 
 /**
- * MARKID API WIDGET IDENTIFICATION INITIATION ENDPOINT
+ * MARKID API SIMPLIFIED WIDGET IDENTIFICATION INITIATION ENDPOINT
  * THIS ENDPOINT HAS TO BE CALLED BEFORE ANY OTHER
  */
 export const HostUrl = `${DefaultMarkIdDomain}/api/identity/simple-init`;
 
 /**
- * MARKID API WIDGET STEPS ENDPOINT
+ * MARKID API SIMPLIFIED WIDGET STEPS ENDPOINT
  * USE THIS ENDPOINT FOR POSTING DATA
  */
 export const StepsUrl = `${DefaultMarkIdDomain}/api/identity/simple_step_action`;
+
+/**
+ * MARKID API SIMPLIFIED WIDGET FINISH ENDPOINT
+ * USE THIS ENDPOINT FOR FINALIZING REQUEST
+ */
+export const StepFinishUrl = `${DefaultMarkIdDomain}/api/identity/simple_ident_finish`;
 
 /**
  * PLEASE PROVIDE YOUR IDENTIFICATION DATA HERE
